@@ -231,6 +231,7 @@
       color: var(--text);
       transition: border-color 0.18s, box-shadow 0.18s;
       -webkit-appearance: none;
+      appearance: none;
     }
 
     input[type="text"]:focus,
@@ -248,7 +249,7 @@
 
     textarea {
       resize: vertical;
-      min-height: 130px;
+      min-height: 164px;
       line-height: 1.65;
     }
 
@@ -323,7 +324,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      gap: 0.75rem;
+      gap: 1.25rem;
     }
 
     .char-counter {
@@ -743,8 +744,8 @@
                 <option value="zh-CN-XiaoyanNeural">晓颜（专业）</option>
                 <option value="zh-CN-XiaoqiuNeural">晓秋（沉稳）</option>
                 <option value="zh-CN-XiaozhenNeural">晓甄（激情）</option>
-                <option value="zh-CN-XiaomengNeural">晓梦</option>
-                <option value="zh-CN-XiaomoNeural">晓墨</option>
+                <option value="zh-CN-XiaomengNeural">晓梦（甜美清新）</option>
+                <option value="zh-CN-XiaomoNeural">晓墨（多变表现力）</option>
                 <option value="zh-CN-XiaoruiNeural">晓睿（年长）</option>
                 <option value="zh-CN-XiaoshuangNeural">晓双（儿童）</option>
                 <option value="zh-CN-XiaoyouNeural">晓悠（儿童）</option>
@@ -754,11 +755,11 @@
                 <option value="zh-CN-YunyangNeural">云扬（专业 · 最热门）</option>
                 <option value="zh-CN-YunxiNeural">云希（阳光）</option>
                 <option value="zh-CN-YunjianNeural">云健（激情）</option>
-                <option value="zh-CN-YunjieNeural">云杰</option>
-                <option value="zh-CN-YunfengNeural">云枫</option>
-                <option value="zh-CN-YunhaoNeural">云皓</option>
+                <option value="zh-CN-YunjieNeural">云杰（自然随性）</option>
+                <option value="zh-CN-YunfengNeural">云枫（沉稳磁性）</option>
+                <option value="zh-CN-YunhaoNeural">云皓（阳光活力）</option>
                 <option value="zh-CN-YunzeNeural">云泽（浑厚）</option>
-                <option value="zh-CN-YunyeNeural">云野</option>
+                <option value="zh-CN-YunyeNeural">云野（豪迈粗犷）</option>
                 <option value="zh-CN-YunxiaNeural">云夏（儿童）</option>
               </optgroup>
               <!-- 地方方言 -->
@@ -915,7 +916,7 @@
   </div>
 
   <!-- Vue 3 CDN (unpkg 在国内一般可访问) -->
-  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <script src="https://unpkg.com/vue@3.5.33/dist/vue.global.prod.js"></script>
 
   <script>
     const { createApp } = Vue;
